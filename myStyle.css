@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(imgs/full-back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #282A67;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: sticky;
+    top: 5px;
+    z-index: 1000;
+    opacity: .9;
+}
+
+.header0 {
+    /* padding: 40px auto; */
+    color: #99B2DD;
+}
+
+.who-am-i {
+    width: 50% ;
+    height: 500px;
+    margin: 100px auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #1f21558e;
+
+}
+
+h2 {
+    margin: 5px auto;
+}
+
+.inner-who-am-i {
+    float: left;
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin: 2.5%;
+    padding: 2.5%;
+    background-color: #99B2DD;
+    position: relative;
+    
+}
+
+.my-goals p{
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+}
+
+.personal-img {
+    width: 100%;
+    border-radius: 160px;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
+    -ms-border-radius: 160px;
+    -o-border-radius: 160px;
+    transition-duration: 1s;
+    transition-delay: 10ms;
+
+
+}
+
+.personal-img:hover{
+    width: 500px;
+    position: absolute;
+    /* top: 100px; */
+    /* left: 300px; */
+
+
+}
+
+.a1 {
+    position: absolute;
+    bottom: 45px;   
+    left: 10px;
+    opacity: 0.85;
+}
+
+.img01:hover {
+    height: 60px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 5px 5px 5px rebeccapurple;
+    
+}
+
+
+.img02:hover {
+    height: 60px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 5px 5px 5px rebeccapurple;
+}
+
+.a2 {
+    position: absolute;
+    bottom: 45px;
+    left: 100px;
+    opacity: 0.85;
+    
+
+}
+
+.img01 {
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img02 {
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
